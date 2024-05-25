@@ -203,13 +203,5 @@ public class Pendu {
 	    }
 	    lettres.add(lettreTestée); // Si la lettre n'est pas dans la liste, l'ajoute et swith etat
 	    return false; 
-	}
-	
-	
-	public static void oneShot(){
-		// TODO faire la methode oneShot pour trouver le mot en un coup
-		
-	}
-		
-
+	}	
 }
