@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="site.css" /> 
+	<title>Connexion</title>
+</head>
+<body class="BG2">
+
+	<div class="main">
+		<div class="barreNav">
+			<a href="accueil.html">Accueil</a>
+	  		<a class="actif" href="log.html">Se connecter</a>
+	  		<a href="signin.html">Création de compte</a>
+	  		<a href="chauffeur.php">Nos chauffeurs</a>
+	  		<a href="devenirchauffeur.html">Dévenir chauffeur</a>
+	  		<a href="surNous.html">Sur Nous</a>
+		</div>
+
+	<form action="login" method="post">	
+	<div class="connexion">
+	
+		<div class="connex">
+			<label class="info" for="email">Email <br></label>
+			<input class="case" type="text" name="user_email" id="email" placeholder="">
+		</div>
+
+		<div class="connex">
+			<label class="info" for="mdp">Mot de passe <br></label>
+			<input class="case" type="password" name="user_password" id="password" placeholder="">
+		</div>
+
+		<a class="pascompte" href="signin.html"><h3>Vous n'avez pas encore de compte?</h3></a>
+
+		<button class="button" onclick="window.location.href='confirmation.html';">Connexion</button>
+	</div>
+</form>
+
+
+
+
+
+
+</body>
+</html>
+

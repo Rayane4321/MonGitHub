@@ -1,0 +1,69 @@
+	<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="site.css" /> 
+	<title>Accueil</title>
+</head>
+<body class="BG2">
+
+	<div class="main">
+		<div class="barreNav2">
+			<a href="accueil2.html">Accueil</a>
+	  		<a href="accueil.html">Se déconecter</a>
+	  		<a class="actif" href="choix.html">Commander</a>
+	  		<a href="chauffeur2.php">Nos chauffeurs</a>
+	  		<a href="panier2.php">Panier</a>
+	  		<a href="surNous2.html">Sur Nous</a>
+		</div>
+		<div>
+			<h1 class="QSVC">ENTRADAS !!!</h1>
+		</div>
+
+<div class="entrada_div">
+    <form method="post" action="ajouter_panier.php">
+        <input type="hidden" name="nom" value="Guacamole">
+ 		<input type="hidden" name="prix" value="8.50">
+        <img class="choix_img" src="guacamole.png">
+			<h2 class="choix">GUACAMOLE</h2>
+			<p class="choix2">avocado for mexico always good</p>
+        <input class="button" type="submit" value="Ajouter au panier">
+    </form>
+</div>
+
+<div class="platos_div">
+    <form method="post" action="ajouter_panier.php">
+        <input type="hidden" name="nom" value="Nachos">
+ 		<input type="hidden" name="prix" value="8.50">
+        <img class="choix_img" src="nachos.png">
+			<h2 class="choix">NACHOS</h2>
+			<p class="choix2">quand vous les mangez, assurez-vous d'avoir suffisamment de mouchoirs à portée de main, car vous allez pleurer sur ces nachos au poulet !</p>
+        <input class="button" type="submit" value="Ajouter au panier">
+    </form>
+</div>
+
+<div class="postre_div">
+    <form method="post" action="ajouter_panier.php">
+        <input type="hidden" name="nom" value="Quesadillas">
+ 		<input type="hidden" name="prix" value="8.50">
+        <img class="choix_img" src="quesadillas.png">
+			<h2 class="choix">QUESADILLAS</h2>
+			<p class="choix2">ce produit est formellement interdit aux intolérants au lactose car le chauffeur risque de s'asphyxier</p>
+        <input class="button" type="submit" value="Ajouter au panier">
+    </form>
+</div>
+
+<div class=bebida_div>
+    <form method="post" action="ajouter_panier.php">
+        <input type="hidden" name="nom" value="Tamales">
+ 		<input type="hidden" name="prix" value="8.50">
+        <img class="choix_img" src="ceviche.png">
+			<h2 class="choix">CEVICHE</h2>
+			<p class="choix2">soutenez la lutte contre le rechauffement climatique en commandant un ceviche trop frais. Chaque ceviche refroidit la terre de 2 degrés </p>
+        <input class="button" type="submit" value="Ajouter au pannier">
+	</form>
+</div>
+
+</body>
+</html>

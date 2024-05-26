@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="site2.css" />
+	<title>Devenir chauffeur</title>
+</head>
+<body class="BG3">
+
+	<div class="main">
+        <div class="barreNav">
+            <a href="accueil.html">Accueil</a>
+            <a href="log.html">Se connecter</a>
+            <a href="signin.html">Création de compte</a>
+            <a href="chauffeur.php">Nos chauffeurs</a>
+            <a class="actif" href="devenirchauffeur.html">Devenir chauffeur</a>
+            <a href="surNous.html">Sur Nous</a>
+        </div>
+
+    <form action="creer_livreur" method="post">    
+	<div class="connexion2">
+
+
+		<div class="connex">
+			<label class="info" for="name">Prénom <br> </label>
+			<input class="case" type="text" name="user_name" id="name" placeholder="">
+		</div>
+
+		<div class="connex">
+			<label class="info" for="surname">Nom <br> </label>
+			<input class="case" type="text" name="user_surname" id="surname" placeholder="">
+		</div>
+
+		<div class="connex">
+			<label class="info" for="age">Age <br> </label>
+			<input class="case" type="text" name="user_age" id="age" placeholder="">
+		</div>
+
+		<div class="connex">
+			<label class="info" for="transport">Moyen de locomotion <br> </label>
+			<select class="case opt" name="Moyen_locomotion"id="locomotion">
+			<option class="case1">...</option>
+			<option value="voiture" class="case1">Voiture</option>
+			<option value="moto" class="case1">Moto</option>
+			<option value="scooter" class="case1">Scooter</option>
+			<option value="vélo" class="case1">Vélo</option>
+			<option value="trotinette" class="case1">Trotinette</option>
+			
+		</select>
+			
+		</div >
+
+		<div class="connex">
+			<label class="info" for="surname">Email <br> </label>
+			<input class="case" type="text" name="user_email" id="email" placeholder="">
+		</div>
+
+			<button class="button" onclick="window.location.href ='confirmation2.html';">Créer</button>
+
+	</div>
+	</form>
+
+</body>
+</html>

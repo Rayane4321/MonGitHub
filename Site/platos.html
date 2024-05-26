@@ -1,0 +1,69 @@
+	<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="site.css" /> 
+	<title>Accueil</title>
+</head>
+<body class="BG2">
+
+	<div class="main">
+		<div class="barreNav2">
+			<a href="accueil2.html">Accueil</a>
+	  		<a href="accueil.html">Se déconecter</a>
+	  		<a class="actif" href="choix.html">Commander</a>
+	  		<a href="chauffeur2.php">Nos chauffeurs</a>
+	  		<a href="panier2.php">Panier</a>
+	  		<a href="surNous2.html">Sur Nous</a>
+		</div>
+		<div>
+			<h1 class="QSVC">PLATOS !!!</h1>
+		</div>
+
+<div class="entrada_div">
+    <form method="post" action="ajouter_panier.php">
+        <input type="hidden" name="nom" value="Tacos">
+ 		<input type="hidden" name="prix" value="8.50">
+        <img class="choix_img" src="tacos.png">
+        <h2 class="choix">TACOS</h2>
+        <p class="choix2">livrés par 3, ces petites merveilles ont été inscrits au patrimoine mondial de l'unesco </p>
+        <input class="button" type="submit" value="Ajouter au panier">
+    </form>
+</div>
+
+<div class="platos_div">
+    <form method="post" action="ajouter_panier.php">
+        <input type="hidden" name="nom" value="Burritos">
+ 		<input type="hidden" name="prix" value="8.50">
+        <img class="choix_img" src="burritos.png">
+        <h2 class="choix">BURRITOS</h2>
+        <p class="choix2">ce produit n'est pas destiné aux fragiles. Nos burritos peuvent causer des dégâts irréparables à votre système digestif. si vous êtes prêt à risquer une explosion intestinale pour satisfaire vos papilles, n'hésitez plus ! </p>
+        <input class="button" type="submit" value="Ajouter au panier">
+    </form>
+</div>
+
+<div class="postre_div">
+    <form method="post" action="ajouter_panier.php">
+        <input type="hidden" name="nom" value="Enchiladas">
+ 		<input type="hidden" name="prix" value="8.50">
+        <img class="choix_img" src="enchiladas.png">
+        <h2 class="choix">ENCHILADAS</h2>
+        <p class="choix2">imaginez des lasagnes avec un petit chapeau mariachi et la musique de narcos derrière et vous obtenez ces petits chefs-d'oeuvres mexicains</p>
+        <input class="button" type="submit" value="Ajouter au panier">
+    </form>
+</div>
+
+<div class=bebida_div>
+    <form method="post" action="ajouter_panier.php">
+        <input type="hidden" name="nom" value="Tamales">
+ 		<input type="hidden" name="prix" value="8.50">
+        <img class="choix_img" src="tamales.png">
+        <h2 class="choix">TAMALES</h2>
+        <p class="choix2">entourés d'une feuille de banane, les tamales sont une véritable pinata. Vous ne savez jamais ce qu'il y a à l'intérieur et nous non plus. C'est parfois une agréable surprise. </p>
+        <input class="button" type="submit" value="Ajouter au pannier">
+	</form>
+</div>
+
+</body>
+</html>

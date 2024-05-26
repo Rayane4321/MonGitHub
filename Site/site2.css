@@ -1,0 +1,499 @@
+
+body {
+  background-size: 1920px 1000px;
+}
+
+.BG1{
+  background-image: url("blanc.png");
+}
+.BG2{
+  background-image: url("boules.png");
+}
+.BG3{
+  background-image: url("vagues.png");
+}
+
+.main {
+  position: relative;
+  width: auto;
+  height: auto;
+}
+
+.barreNav {
+  overflow: hidden;
+  background-color: #d6881a;
+}
+
+.barreNav2 {
+  overflow: hidden;
+  background-color: #d6881a;
+}
+
+.barreNav a {
+  font-family: "NunitoSans";
+  float: left;
+  display: block;
+  border-bottom: 3px transparent;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 15px 85px;
+  font-size: 17px;
+}
+
+.barreNav2 a {
+  font-family: "NunitoSans";
+  float: left;
+  display: block;
+  border-bottom: 3px transparent;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 15px 100px;
+  font-size: 17px;
+}
+
+.barreNav a:hover {
+  border-bottom: 3px solid green;
+  color: black;
+}
+
+.barreNav2 a:hover {
+  border-bottom: 3px solid green;
+  color: black;
+}
+
+.barreNav a.actif {
+  border-bottom: 3px solid green;
+  color: black;
+}
+
+
+.barreNav2 a.actif {
+  border-bottom: 3px solid green;
+  color: black;
+}
+
+.Titre {
+  letter-spacing: 3px;
+  font-family: "Bangers";
+  font-style: bold;
+  color : green;
+  margin-top : 9%;
+  margin-left: 1%;
+  font-size: 75px;
+}
+
+.Adresse {
+  text-align: center;
+  border-block: 3px solid green;
+  width: 120px;
+  height: 110px;
+  position: relative;
+  margin-top: 530px;
+  margin-left: 25px;
+  font-size: 20px;
+  color: white;
+}
+
+.taxmex {
+  margin-top: 55px;
+  margin-left: 150px;
+  width: 1700px;
+  height: 850px;
+  position: absolute;
+  z-index: +2;
+}
+
+.mex {
+  margin-left: 25px;
+  width: 225px;
+  height: 190px;
+  position: absolute;
+  z-index: +1;
+}
+
+.tax {
+  font-family: "NunitoSansExtraBold";
+  position: absolute;
+  z-index: +3;
+  margin-left: 1350px;
+  margin-top: -200px;
+  font-size: 80px;
+  color : white;
+}
+
+.text1 {
+  font-family: "NunitoSans";
+  position: absolute;
+  z-index: +3;
+  margin-left: 1400px;
+  font-size: 28px;
+  font-style: oblique;
+  color : white;
+}
+
+.button {
+  margin-top: 20px;
+  font-family: "NunitoSans";
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 6px #1b5c1d;
+}
+
+.b1 {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow:0 3px #666;
+  transform: translateY(4px);
+}
+
+.connexion {
+  border: 3px solid green;
+  border-radius: 25px;
+  font-family: "NunitoSans";
+  text-align: center;
+  width: 400px;
+  height: 250px;
+  background-color: rgba(214, 136, 26, 0.7);
+  margin-top: 250px;
+  margin-left: 725px;
+}
+
+.connexion1 {
+  border: 3px solid green;
+  border-radius: 25px;
+  font-family: "NunitoSans";
+  text-align: center;
+  width: 400px;
+  height: 550px;
+  background-color: rgba(214, 136, 26, 0.7);
+  margin-top: 150px;
+  margin-left: 725px;
+}
+
+.connexion2 {
+  border: 3px solid green;
+  border-radius: 25px;
+  font-family: "NunitoSans";
+  text-align: center;
+  width: 400px;
+  height: 450px;
+  background-color: rgba(214, 136, 26, 0.7);
+  margin-top: 150px;
+  margin-left: 725px;
+}
+
+.connex {
+  margin-bottom: 20px;
+}
+
+.pascompte {
+  text-decoration: underline;
+  color: black;
+}
+
+.dejacompte {
+  text-decoration: underline;
+  color: black;
+}
+
+.info {
+  font-size: 22px;
+}
+
+.case {
+  font-family: "NunitoSans";  
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 25px;
+  border-color: green;
+}
+
+.case1 {
+  font-family: "NunitoSans";  
+  background-color: rgba(0, 175, 0, 0.8);
+  border-radius: 25px;
+  border:3px solid green;
+}
+
+
+.table1 {
+  font-family: "NunitoSans";
+  text-align: center;
+  background-color: transparent;
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 750px;
+}
+
+.table2 {
+  font-family: "NunitoSans";
+  text-align: center;
+  background-color: transparent;
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 850px;
+}
+
+.panier {
+  margin-top: 100px;
+  margin-left: 875px;
+}
+
+.panier_button {
+  margin-left: 835px;
+}
+
+
+.confirmation {
+  font-family: "NunitoSans";
+  text-align: center;
+  margin-top: 200px;
+  margin-left: 100px;
+}
+
+th {
+  font-family: "NunitoSans";
+  color: #ddebdd;
+  text-decoration: underline 2px;
+  border-radius: 5px;
+  background-color: rgba(48, 130, 49, 0.8);
+  border: 3px solid black;
+  text-align: center;
+}
+
+td {
+  font-family: "NunitoSans";
+  border-radius: 5px;
+  background-color: rgba(221, 235, 221, 0.8 );
+  border: 3px solid black;
+  color: #085c06;
+  text-align: center;
+}
+
+.opt {
+  width: 177px;
+  height: 23px;
+  font-size: 15px;
+  text-align: center;
+}
+
+@font-face {
+  font-family: 'NunitoSans';
+  src: url('NS.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'NunitoSansExtraBold';
+  src: url('NSEB.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Bangers';
+  src: url('Bangers.ttf') format('truetype');
+}
+
+.bienvenue {
+  text-decoration: underline;
+  text-decoration-color: green;
+  position: absolute;
+  margin-left: 575px;
+  text-align: center;
+  font-family:"Bangers";
+  font-size: 80px;
+  color: green;
+}
+
+.bienvenue1 {
+  text-decoration: underline;
+  text-decoration-color: white;
+  margin-left: 875px;
+  position: absolute;
+  text-align: center;
+  font-family:"Bangers";
+  font-size: 80px;
+  color: green;
+}
+
+.bienvenue2 {
+  text-decoration: underline;
+  text-decoration-color: red;
+  margin-left: 1025px;
+  position: absolute;
+  text-align: center;
+  font-family:"Bangers";
+  font-size: 80px;
+  color: green;
+}
+
+.text2 {
+  margin-top: 200px;
+  font-family: 'NunitoSans';
+  font-size: 25px;
+  text-align: center;
+  padding: 10px 250px;
+  line-height: 45px;
+  letter-spacing: 2px;
+}
+
+.arriba {
+  text-align: center;
+  font-family:"Bangers";
+  font-size: 80px;
+  color: green;
+}
+
+.arriba-img1 {
+  margin-left: 400px;
+  position: absolute;
+}
+
+.arriba-img2 {
+  position: absolute;
+  margin-top: -200px;
+  margin-left: 1300px;
+}
+
+.QSVC {
+  text-align: center;
+  letter-spacing: 3px;
+  font-family: "Bangers";
+  font-style: bold;
+  color : green;
+  margin-top: 100px;
+  font-size: 75px;
+}
+
+.entrada_div {
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 200px;
+  background-color: #047442;
+}
+
+.entrada_div2 {
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  position: absolute;
+  margin-top: 105px;  margin-left: 200px;
+  background-color: #047442;
+}
+
+.platos_div {
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 600px;
+  background-color: #F75B44;
+}
+
+.platos_div2 {
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  position: absolute;
+  margin-top: 105px;  margin-left: 600px;
+  background-color: #F75B44;
+}
+
+.postre_div {
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 1000px;
+  background-color: #FF8F00;
+}
+
+.postre_div2 {
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  position: absolute;
+  margin-top: 105px;  margin-left: 1000px;
+  background-color: #FF8F00;
+}
+
+.bebida_div {
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 1400px;
+  background-color: #FFBE17;
+}
+
+.bebida_div2 {
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  position: absolute;
+  margin-top: 105px;  margin-left: 1400px;
+  background-color: #FFBE17;
+}
+
+
+.choix_img {
+  border-radius: 10px;
+  margin-top: 13px;
+  margin-bottom: 10px;
+  width: 175px;
+  height: 175px;
+}
+
+
+.choix {
+  font-family: "NunitoSans";
+  font-size: 28px;
+  font-style: oblique;
+  color : white;
+}
+
+.choix2 {
+  font-family: "NunitoSans";
+  font-size: 15px;
+  font-style: oblique;
+  color : white;
+}
+
+.text3 {
+  font-family: "Bangers";
+  font-size: 25px;
+  font-style: bold;
+  text-align: center;
+  margin-top: 50px;
+  color : darkred;
+}
+
+

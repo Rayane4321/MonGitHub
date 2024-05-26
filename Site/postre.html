@@ -1,0 +1,69 @@
+	<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="site.css" /> 
+	<title>Accueil</title>
+</head>
+<body class="BG2">
+
+	<div class="main">
+		<div class="barreNav2">
+			<a href="accueil2.html">Accueil</a>
+	  		<a href="accueil.html">Se déconecter</a>
+	  		<a class="actif" href="choix.html">Commander</a>
+	  		<a href="chauffeur2.php">Nos chauffeurs</a>
+	  		<a href="panier2.php">Panier</a>
+	  		<a href="surNous2.html">Sur Nous</a>
+		</div>
+		<div>
+			<h1 class="QSVC">POSTRES !!!</h1>
+		</div>
+
+		<div class="entrada_div">
+    <form method="post" action="ajouter_panier.php">
+        <input type="hidden" name="nom" value="Helado">
+ 		<input type="hidden" name="prix" value="8.50">
+        <img class="choix_img" src="helado.png">
+			<h2 class="choix">HELADO</h2>
+			<p class="choix2">ce mélange chaud froid fera fondre votre petit coeur</p>
+        <input class="button" type="submit" value="Ajouter au panier">
+    </form>
+</div>
+
+<div class="platos_div">
+    <form method="post" action="ajouter_panier.php">
+        <input type="hidden" name="nom" value="Churros">
+ 		<input type="hidden" name="prix" value="8.50">
+       <img class="choix_img" src="churros.png">
+			<h2 class="choix">CHURROS</h2>
+			<p class="choix2">pas besoin d'autobronzant pour ces petits churros qui se dorent la pilule à puntacana</p>
+        <input class="button" type="submit" value="Ajouter au panier">
+    </form>
+</div>
+
+<div class="postre_div">
+    <form method="post" action="ajouter_panier.php">
+        <input type="hidden" name="nom" value="Pastel 3 Leches">
+ 		<input type="hidden" name="prix" value="8.50">
+        <img class="choix_img" src="pastel.png">
+			<h2 class="choix">PASTEL 3 LECHES</h2>
+			<p class="choix2">les trois mousquetaires sont mexicains et ce délicieux gâteau le prouve</p>
+        <input class="button" type="submit" value="Ajouter au panier">
+    </form>
+</div>
+
+<div class=bebida_div>
+    <form method="post" action="ajouter_panier.php">
+        <input type="hidden" name="nom" value="Sopapillas">
+ 		<input type="hidden" name="prix" value="8.50">
+        <img class="choix_img" src="sopapillas.png">
+			<h2 class="choix">SOPAPILLAS</h2>
+			<p class="choix2">ces petits chaussons chaleureux et fondants vous feront tomber dans les pommes</p>
+        <input class="button" type="submit" value="Ajouter au pannier">
+	</form>
+</div>
+
+</body>
+</html>

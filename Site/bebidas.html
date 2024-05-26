@@ -1,0 +1,73 @@
+	<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="site.css" /> 
+	<title>Accueil</title>
+</head>
+<body class="BG2">
+
+	<div class="main">
+		<div class="barreNav2">
+			<a href="accueil2.html">Accueil</a>
+	  		<a href="accueil.html">Se déconecter</a>
+	  		<a class="actif" href="choix.html">Commander</a>
+	  		<a href="chauffeur2.php">Nos chauffeurs</a>
+	  		<a href="panier2.php">Panier</a>
+	  		<a href="surNous2.html">Sur Nous</a>
+		</div>
+		<div>
+			<h1 class="QSVC">BEBIDAS !!!</h1>
+		</div>
+
+		<div>
+			<p class="text3"> TOUTES NOS BOISSONS SONT SANS ALCOOL <br> AU CAS OU VOUS DEVRIEZ REMPLACER LE CONDUCTEUR </p>
+		</div>
+
+		<div class="entrada_div">
+    <form method="post" action="ajouter_panier.php">
+        <input type="hidden" name="nom" value="Conga">
+ 		<input type="hidden" name="prix" value="8.50">
+        <img class="choix_img" src="conga.png">
+			<h2 class="choix">CONGA</h2>
+			<p class="choix2">si vous n'avez pas les moyens de voyager le conga est fait pour vous. En une gorgée vous serez transportés sur les plages paradisiaques de mexico</p>
+        <input class="button" type="submit" value="Ajouter au panier">
+    </form>
+</div>
+
+<div class="platos_div">
+    <form method="post" action="ajouter_panier.php">
+        <input type="hidden" name="nom" value="Virjin Mojito">
+ 		<input type="hidden" name="prix" value="8.50">
+       <img class="choix_img" src="virjin.png">
+			<h2 class="choix">VIRJIN MOJITO</h2>
+			<p class="choix2">le mojito, c'est vraiment trop bon, quand je bois cette boisson ca me fait des frissons.</p>
+        <input class="button" type="submit" value="Ajouter au panier">
+    </form>
+</div>
+
+<div class="postre_div">
+    <form method="post" action="ajouter_panier.php">
+        <input type="hidden" name="nom" value="Horchata">
+ 		<input type="hidden" name="prix" value="8.50">
+       <img class="choix_img" src="horchata.png">
+			<h2 class="choix">HORCHATA</h2>
+			<p class="choix2">parfait pour un netflix and chill.</p>
+        <input class="button" type="submit" value="Ajouter au panier">
+    </form>
+</div>
+
+<div class=bebida_div>
+    <form method="post" action="ajouter_panier.php">
+        <input type="hidden" name="nom" value="Agua Fresca">
+ 		<input type="hidden" name="prix" value="8.50">
+        <img class="choix_img" src="agua.png">
+			<h2 class="choix">AGUA FRESCA</h2>
+			<p class="choix2">c'est juste de l'eau fraiche parfumée mais en espagnol ça rend mieux</p>
+        <input class="button" type="submit" value="Ajouter au pannier">
+	</form>
+</div>
+
+</body>
+</html>

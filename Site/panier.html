@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="site.css" />
+	<title>Votre Panier</title>
+</head>
+<body class="BG2">
+
+    <div class="main">
+        <div class="barreNav2">
+            <a href="accueil2.html">Accueil</a>
+            <a href="accueil.html">Se déconecter</a>
+            <a href="choix.html">Commander</a>
+            <a href="chauffeurs2.html">Nos chauffeurs</a>
+            <a class="actif" href="panier.html">Panier</a>
+            <a href="surNous2.html">Sur Nous</a>
+        </div>
+
+
+    <div class="connexion-tab">
+    	
+        <?php
+    	include 'panier.php';
+        ?>
+
+        <form method="post" action="confirmer_achat.php">
+            <input class="button" type="submit" value="Confirmer l'achat">
+        </form>
+
+    </div>
+
+
+
+</body>
+</html>
